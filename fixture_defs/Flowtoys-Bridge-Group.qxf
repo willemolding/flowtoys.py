@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.13.0</Version>
+  <Author>Willem Olding</Author>
+ </Creator>
+ <Manufacturer>Flowtoys</Manufacturer>
+ <Model>Bridge Group</Model>
+ <Type>Effect</Type>
+ <Channel Name="Pattern">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="0">No change</Capability>
+  <Capability Min="1" Max="1">P1 M1 · Play: Rainbow</Capability>
+  <Capability Min="2" Max="2">P1 M2 · Play: Rainbow Drops</Capability>
+  <Capability Min="3" Max="3">P1 M3 · Play: Bold</Capability>
+  <Capability Min="4" Max="4">P1 M4 · Play: Lantern</Capability>
+  <Capability Min="5" Max="5">P1 M5 · Play: Fire</Capability>
+  <Capability Min="6" Max="6">P1 M6 · Play: Water</Capability>
+  <Capability Min="7" Max="7">P1 M7 · Play: Earth</Capability>
+  <Capability Min="8" Max="8">P1 M8 · Play: Air</Capability>
+  <Capability Min="9" Max="9">P1 M9 · Play: Spirit</Capability>
+  <Capability Min="10" Max="10">P1 M10 · Play: Pulse</Capability>
+  <Capability Min="11" Max="11">P1 M11 · Play: Autoplay</Capability>
+  <Capability Min="12" Max="12">P2 M1 · Party: Candy</Capability>
+  <Capability Min="13" Max="13">P2 M2 · Party: Petals</Capability>
+  <Capability Min="14" Max="14">P2 M3 · Party: Love</Capability>
+  <Capability Min="15" Max="15">P2 M4 · Party: Watermelon</Capability>
+  <Capability Min="16" Max="16">P2 M5 · Party: Freedom</Capability>
+  <Capability Min="17" Max="17">P2 M6 · Party: Microdots</Capability>
+  <Capability Min="18" Max="18">P2 M7 · Party: Unicorn</Capability>
+  <Capability Min="19" Max="19">P2 M8 · Party: Blue Blazer</Capability>
+  <Capability Min="20" Max="20">P2 M9 · Party: Solar Flare</Capability>
+  <Capability Min="21" Max="21">P2 M10 · Party: Strobe</Capability>
+  <Capability Min="22" Max="22">P2 M11 · Party: Autoplay</Capability>
+  <Capability Min="23" Max="23">P3 M1 · Perform: Flamebow</Capability>
+  <Capability Min="24" Max="24">P3 M2 · Perform: Alicorn</Capability>
+  <Capability Min="25" Max="25">P3 M3 · Perform: Liquid Sugar</Capability>
+  <Capability Min="26" Max="26">P3 M4 · Perform: Rainbow Dash</Capability>
+  <Capability Min="27" Max="27">P3 M5 · Perform: Fireball</Capability>
+  <Capability Min="28" Max="28">P3 M6 · Perform: Froth</Capability>
+  <Capability Min="29" Max="29">P3 M7 · Perform: Jammin’</Capability>
+  <Capability Min="30" Max="30">P3 M8 · Perform: Bolder</Capability>
+  <Capability Min="31" Max="31">P3 M9 · Perform: Sunset</Capability>
+  <Capability Min="32" Max="32">P3 M10 · Perform: Daybreak</Capability>
+  <Capability Min="33" Max="33">P3 M11 · Perform: Autoplay</Capability>
+  <Capability Min="34" Max="34">P4 M1 · Favorites: slot 1</Capability>
+  <Capability Min="35" Max="35">P4 M2 · Favorites: slot 2</Capability>
+  <Capability Min="36" Max="36">P4 M3 · Favorites: slot 3</Capability>
+  <Capability Min="37" Max="37">P4 M4 · Favorites: slot 4</Capability>
+  <Capability Min="38" Max="38">P4 M5 · Favorites: slot 5</Capability>
+  <Capability Min="39" Max="39">P4 M6 · Favorites: slot 6</Capability>
+  <Capability Min="40" Max="40">P4 M7 · Favorites: slot 7</Capability>
+  <Capability Min="41" Max="41">P4 M8 · Favorites: slot 8</Capability>
+  <Capability Min="42" Max="42">P4 M9 · Favorites: slot 9</Capability>
+  <Capability Min="43" Max="43">P4 M10 · Favorites: slot 10</Capability>
+  <Capability Min="44" Max="44">P4 M11 · Favorites: slot 11</Capability>
+  <Capability Min="45" Max="45">P4 M12 · Favorites: slot 12</Capability>
+  <Capability Min="46" Max="46">P4 M13 · Favorites: slot 13</Capability>
+  <Capability Min="47" Max="47">P4 M14 · Favorites: slot 14</Capability>
+  <Capability Min="48" Max="48">P4 M15 · Favorites: slot 15</Capability>
+  <Capability Min="49" Max="49">P4 M16 · Favorites: slot 16</Capability>
+  <Capability Min="50" Max="50">P4 M17 · Favorites: slot 17</Capability>
+  <Capability Min="51" Max="51">P4 M18 · Favorites: slot 18</Capability>
+  <Capability Min="52" Max="52">P4 M19 · Favorites: slot 19</Capability>
+  <Capability Min="53" Max="53">P4 M20 · Favorites: slot 20</Capability>
+  <Capability Min="54" Max="54">P4 M21 · Favorites: slot 21</Capability>
+  <Capability Min="55" Max="55">P4 M22 · Favorites: slot 22</Capability>
+  <Capability Min="56" Max="56">P4 M23 · Favorites: slot 23</Capability>
+  <Capability Min="57" Max="57">P4 M24 · Favorites: slot 24</Capability>
+  <Capability Min="58" Max="58">P4 M25 · Favorites: slot 25</Capability>
+  <Capability Min="59" Max="59">P4 M26 · Favorites: slot 26</Capability>
+  <Capability Min="60" Max="60">P4 M27 · Favorites: slot 27</Capability>
+  <Capability Min="61" Max="61">P4 M28 · Favorites: slot 28</Capability>
+  <Capability Min="62" Max="62">P4 M29 · Favorites: slot 29</Capability>
+  <Capability Min="63" Max="63">P4 M30 · Favorites: slot 30</Capability>
+  <Capability Min="64" Max="64">P4 M31 · Favorites: slot 31</Capability>
+  <Capability Min="65" Max="65">P4 M32 · Favorites: slot 32</Capability>
+  <Capability Min="66" Max="66">P4 M33 · Favorites: slot 33</Capability>
+  <Capability Min="67" Max="67">P4 M34 · Favorites: slot 34</Capability>
+  <Capability Min="68" Max="68">P4 M35 · Favorites: slot 35</Capability>
+  <Capability Min="69" Max="69">P4 M36 · Favorites: slot 36</Capability>
+  <Capability Min="70" Max="70">P4 M37 · Favorites: slot 37</Capability>
+  <Capability Min="71" Max="71">P4 M38 · Favorites: slot 38</Capability>
+  <Capability Min="72" Max="72">P4 M39 · Favorites: slot 39</Capability>
+  <Capability Min="73" Max="73">P4 M40 · Favorites: slot 40</Capability>
+  <Capability Min="74" Max="74">P4 M41 · Favorites: slot 41</Capability>
+  <Capability Min="75" Max="75">P4 M42 · Favorites: slot 42</Capability>
+  <Capability Min="76" Max="76">P4 M43 · Favorites: slot 43</Capability>
+  <Capability Min="77" Max="77">P4 M44 · Favorites: slot 44</Capability>
+  <Capability Min="78" Max="78">P4 M45 · Favorites: slot 45</Capability>
+  <Capability Min="79" Max="79">P4 M46 · Favorites: slot 46</Capability>
+  <Capability Min="80" Max="80">P4 M47 · Favorites: slot 47</Capability>
+  <Capability Min="81" Max="81">P4 M48 · Favorites: slot 48</Capability>
+  <Capability Min="82" Max="82">P4 M49 · Favorites: slot 49</Capability>
+  <Capability Min="83" Max="83">P4 M50 · Favorites: slot 50</Capability>
+  <Capability Min="84" Max="84">P4 M51 · Favorites: slot 51</Capability>
+  <Capability Min="85" Max="85">P4 M52 · Favorites: slot 52</Capability>
+  <Capability Min="86" Max="86">P4 M53 · Favorites: slot 53</Capability>
+  <Capability Min="87" Max="87">P4 M54 · Favorites: slot 54</Capability>
+  <Capability Min="88" Max="88">P4 M55 · Favorites: slot 55</Capability>
+  <Capability Min="89" Max="89">P4 M56 · Favorites: slot 56</Capability>
+  <Capability Min="90" Max="90">P4 M57 · Favorites: slot 57</Capability>
+  <Capability Min="91" Max="91">P4 M58 · Favorites: slot 58</Capability>
+  <Capability Min="92" Max="92">P4 M59 · Favorites: slot 59</Capability>
+  <Capability Min="93" Max="93">P4 M60 · Favorites: slot 60</Capability>
+  <Capability Min="94" Max="94">P5 M1 · Settings: Grouping</Capability>
+  <Capability Min="95" Max="95">P5 M2 · Settings: Brightness</Capability>
+  <Capability Min="96" Max="96">P5 M3 · Settings: White balance</Capability>
+  <Capability Min="97" Max="97">P5 M4 · Settings: Kinetic response</Capability>
+  <Capability Min="98" Max="98">P5 M5 · Settings: Auto-sleep/ wake</Capability>
+  <Capability Min="99" Max="99">P5 M6 · Settings: Standby setting (pink indicator)</Capability>
+  <Capability Min="100" Max="100">P5 M7 · Settings: placeholder (dim red)</Capability>
+  <Capability Min="101" Max="101">P5 M8 · Settings: placeholder (dim red)</Capability>
+  <Capability Min="102" Max="102">P5 M9 · Settings: placeholder (dim red)</Capability>
+  <Capability Min="103" Max="103">P5 M10 · Settings: Reset to default</Capability>
+  <Capability Min="104" Max="104">P5 M11 · Settings: Random autoplay</Capability>
+  <Capability Min="105" Max="105">P6 M1 · Shortcut to P1 M1</Capability>
+  <Capability Min="106" Max="106">P7 M1 · Shortcut to P1 M1</Capability>
+  <Capability Min="107" Max="107">P8 M1 · Show page: slot 1</Capability>
+  <Capability Min="108" Max="108">P8 M2 · Show page: slot 2</Capability>
+  <Capability Min="109" Max="109">P8 M3 · Show page: slot 3</Capability>
+  <Capability Min="110" Max="110">P8 M4 · Show page: slot 4</Capability>
+  <Capability Min="111" Max="111">P8 M5 · Show page: slot 5</Capability>
+  <Capability Min="112" Max="112">P8 M6 · Show page: slot 6</Capability>
+  <Capability Min="113" Max="113">P8 M7 · Show page: slot 7</Capability>
+  <Capability Min="114" Max="114">P8 M8 · Show page: slot 8</Capability>
+  <Capability Min="115" Max="115">P8 M9 · Show page: slot 9</Capability>
+  <Capability Min="116" Max="116">P8 M10 · Show page: slot 10</Capability>
+  <Capability Min="117" Max="117">P8 M11 · Show page: slot 11</Capability>
+  <Capability Min="118" Max="118">P8 M12 · Show page: slot 12</Capability>
+  <Capability Min="119" Max="119">P8 M13 · Show page: slot 13</Capability>
+  <Capability Min="120" Max="120">P8 M14 · Show page: slot 14</Capability>
+  <Capability Min="121" Max="121">P8 M15 · Show page: slot 15</Capability>
+  <Capability Min="122" Max="122">P8 M16 · Show page: slot 16</Capability>
+  <Capability Min="123" Max="123">P8 M17 · Show page: slot 17</Capability>
+  <Capability Min="124" Max="124">P8 M18 · Show page: slot 18</Capability>
+  <Capability Min="125" Max="125">P8 M19 · Show page: slot 19</Capability>
+  <Capability Min="126" Max="126">P8 M20 · Show page: slot 20</Capability>
+  <Capability Min="127" Max="127">P8 M21 · Show page: slot 21</Capability>
+  <Capability Min="128" Max="128">P8 M22 · Show page: slot 22</Capability>
+  <Capability Min="129" Max="129">P8 M23 · Show page: slot 23</Capability>
+  <Capability Min="130" Max="130">P8 M24 · Show page: slot 24</Capability>
+  <Capability Min="131" Max="131">P8 M25 · Show page: slot 25</Capability>
+  <Capability Min="132" Max="132">P8 M26 · Show page: slot 26</Capability>
+  <Capability Min="133" Max="133">P8 M27 · Show page: slot 27</Capability>
+  <Capability Min="134" Max="134">P8 M28 · Show page: slot 28</Capability>
+  <Capability Min="135" Max="135">P8 M29 · Show page: slot 29</Capability>
+  <Capability Min="136" Max="136">P8 M30 · Show page: slot 30</Capability>
+  <Capability Min="137" Max="137">P8 M31 · Show page: slot 31</Capability>
+  <Capability Min="138" Max="138">P8 M32 · Show page: slot 32</Capability>
+  <Capability Min="139" Max="139">P8 M33 · Show page: slot 33</Capability>
+  <Capability Min="140" Max="140">P8 M34 · Show page: slot 34</Capability>
+  <Capability Min="141" Max="141">P8 M35 · Show page: slot 35</Capability>
+  <Capability Min="142" Max="142">P8 M36 · Show page: slot 36</Capability>
+  <Capability Min="143" Max="143">P8 M37 · Show page: slot 37</Capability>
+  <Capability Min="144" Max="144">P8 M38 · Show page: slot 38</Capability>
+  <Capability Min="145" Max="145">P8 M39 · Show page: slot 39</Capability>
+  <Capability Min="146" Max="146">P8 M40 · Show page: slot 40</Capability>
+  <Capability Min="147" Max="147">P8 M41 · Show page: slot 41</Capability>
+  <Capability Min="148" Max="148">P8 M42 · Show page: slot 42</Capability>
+  <Capability Min="149" Max="149">P8 M43 · Show page: slot 43</Capability>
+  <Capability Min="150" Max="150">P8 M44 · Show page: slot 44</Capability>
+  <Capability Min="151" Max="151">P8 M45 · Show page: slot 45</Capability>
+  <Capability Min="152" Max="152">P8 M46 · Show page: slot 46</Capability>
+  <Capability Min="153" Max="153">P8 M47 · Show page: slot 47</Capability>
+  <Capability Min="154" Max="154">P8 M48 · Show page: slot 48</Capability>
+  <Capability Min="155" Max="155">P8 M49 · Show page: slot 49</Capability>
+  <Capability Min="156" Max="156">P9 M1 · Show page: slot 1</Capability>
+  <Capability Min="157" Max="157">P9 M2 · Show page: slot 2</Capability>
+  <Capability Min="158" Max="158">P9 M3 · Show page: slot 3</Capability>
+  <Capability Min="159" Max="159">P9 M4 · Show page: slot 4</Capability>
+  <Capability Min="160" Max="160">P9 M5 · Show page: slot 5</Capability>
+  <Capability Min="161" Max="161">P9 M6 · Show page: slot 6</Capability>
+  <Capability Min="162" Max="162">P9 M7 · Show page: slot 7</Capability>
+  <Capability Min="163" Max="163">P9 M8 · Show page: slot 8</Capability>
+  <Capability Min="164" Max="164">P9 M9 · Show page: slot 9</Capability>
+  <Capability Min="165" Max="165">P9 M10 · Show page: slot 10</Capability>
+  <Capability Min="166" Max="166">P9 M11 · Show page: slot 11</Capability>
+  <Capability Min="167" Max="167">P9 M12 · Show page: slot 12</Capability>
+  <Capability Min="168" Max="168">P9 M13 · Show page: slot 13</Capability>
+  <Capability Min="169" Max="169">P9 M14 · Show page: slot 14</Capability>
+  <Capability Min="170" Max="170">P9 M15 · Show page: slot 15</Capability>
+  <Capability Min="171" Max="171">P9 M16 · Show page: slot 16</Capability>
+  <Capability Min="172" Max="172">P9 M17 · Show page: slot 17</Capability>
+  <Capability Min="173" Max="173">P9 M18 · Show page: slot 18</Capability>
+  <Capability Min="174" Max="174">P9 M19 · Show page: slot 19</Capability>
+  <Capability Min="175" Max="175">P9 M20 · Show page: slot 20</Capability>
+  <Capability Min="176" Max="176">P9 M21 · Show page: slot 21</Capability>
+  <Capability Min="177" Max="177">P9 M22 · Show page: slot 22</Capability>
+  <Capability Min="178" Max="178">P9 M23 · Show page: slot 23</Capability>
+  <Capability Min="179" Max="179">P9 M24 · Show page: slot 24</Capability>
+  <Capability Min="180" Max="180">P9 M25 · Show page: slot 25</Capability>
+  <Capability Min="181" Max="181">P9 M26 · Show page: slot 26</Capability>
+  <Capability Min="182" Max="182">P9 M27 · Show page: slot 27</Capability>
+  <Capability Min="183" Max="183">P9 M28 · Show page: slot 28</Capability>
+  <Capability Min="184" Max="184">P9 M29 · Show page: slot 29</Capability>
+  <Capability Min="185" Max="185">P9 M30 · Show page: slot 30</Capability>
+  <Capability Min="186" Max="186">P9 M31 · Show page: slot 31</Capability>
+  <Capability Min="187" Max="187">P9 M32 · Show page: slot 32</Capability>
+  <Capability Min="188" Max="188">P9 M33 · Show page: slot 33</Capability>
+  <Capability Min="189" Max="189">P9 M34 · Show page: slot 34</Capability>
+  <Capability Min="190" Max="190">P9 M35 · Show page: slot 35</Capability>
+  <Capability Min="191" Max="191">P9 M36 · Show page: slot 36</Capability>
+  <Capability Min="192" Max="192">P9 M37 · Show page: slot 37</Capability>
+  <Capability Min="193" Max="193">P9 M38 · Show page: slot 38</Capability>
+  <Capability Min="194" Max="194">P9 M39 · Show page: slot 39</Capability>
+  <Capability Min="195" Max="195">P9 M40 · Show page: slot 40</Capability>
+  <Capability Min="196" Max="196">P9 M41 · Show page: slot 41</Capability>
+  <Capability Min="197" Max="197">P9 M42 · Show page: slot 42</Capability>
+  <Capability Min="198" Max="198">P9 M43 · Show page: slot 43</Capability>
+  <Capability Min="199" Max="199">P9 M44 · Show page: slot 44</Capability>
+  <Capability Min="200" Max="200">P9 M45 · Show page: slot 45</Capability>
+  <Capability Min="201" Max="201">P9 M46 · Show page: slot 46</Capability>
+  <Capability Min="202" Max="202">P9 M47 · Show page: slot 47</Capability>
+  <Capability Min="203" Max="203">P9 M48 · Show page: slot 48</Capability>
+  <Capability Min="204" Max="204">P9 M49 · Show page: slot 49</Capability>
+  <Capability Min="205" Max="205">P13 M1 · Bonus 1</Capability>
+  <Capability Min="206" Max="206">P13 M2 · Bonus 2</Capability>
+  <Capability Min="207" Max="207">P13 M3 · Bonus 3</Capability>
+  <Capability Min="208" Max="208">P13 M4 · Bonus 4</Capability>
+  <Capability Min="209" Max="209">P13 M5 · Bonus 5</Capability>
+  <Capability Min="210" Max="210">P13 M6 · Bonus 6</Capability>
+  <Capability Min="211" Max="211">P13 M7 · Bonus 7</Capability>
+  <Capability Min="212" Max="212">P13 M8 · Bonus 8</Capability>
+  <Capability Min="213" Max="213">P13 M9 · Bonus 9</Capability>
+  <Capability Min="214" Max="214">P13 M10 · Bonus 10</Capability>
+  <Capability Min="215" Max="215">P13 M11 · Bonus 11</Capability>
+  <Capability Min="216" Max="216">P13 M12 · Bonus 12</Capability>
+  <Capability Min="217" Max="217">P13 M13 · Bonus 13</Capability>
+  <Capability Min="218" Max="218">P13 M14 · Bonus 14</Capability>
+  <Capability Min="219" Max="219">P13 M15 · Bonus 15</Capability>
+  <Capability Min="220" Max="220">P13 M16 · Bonus 16</Capability>
+  <Capability Min="221" Max="221">P13 M17 · Bonus 17</Capability>
+  <Capability Min="222" Max="222">P13 M18 · Bonus 18</Capability>
+  <Capability Min="223" Max="223">P13 M19 · Bonus 19</Capability>
+  <Capability Min="224" Max="224">P13 M20 · Bonus 20</Capability>
+  <Capability Min="225" Max="225">P13 M21 · Bonus 21</Capability>
+  <Capability Min="226" Max="226">P13 M22 · Bonus 22</Capability>
+  <Capability Min="227" Max="227">P13 M23 · Bonus 23</Capability>
+  <Capability Min="228" Max="228">P13 M24 · Bonus 24</Capability>
+  <Capability Min="229" Max="229">P13 M25 · Bonus 25</Capability>
+  <Capability Min="230" Max="230">P13 M26 · Bonus 26</Capability>
+  <Capability Min="231" Max="231">P13 M27 · Bonus 27</Capability>
+  <Capability Min="232" Max="232">P13 M28 · Bonus 28</Capability>
+  <Capability Min="233" Max="233">P13 M29 · Bonus 29</Capability>
+  <Capability Min="234" Max="234">P13 M30 · Bonus 30</Capability>
+  <Capability Min="235" Max="235">P13 M31 · Bonus 31</Capability>
+  <Capability Min="236" Max="236">P13 M32 · Bonus 32</Capability>
+  <Capability Min="237" Max="237">P13 M33 · Bonus 33</Capability>
+  <Capability Min="238" Max="238">P13 M34 · Bonus 34</Capability>
+  <Capability Min="239" Max="239">P13 M35 · Bonus 35 (Autoplay on Capsule 2.0)</Capability>
+  <Capability Min="240" Max="240">P13 M36 · Bonus 36</Capability>
+  <Capability Min="241" Max="241">P13 M37 · Bonus 37</Capability>
+  <Capability Min="242" Max="242">P13 M38 · Bonus 38</Capability>
+  <Capability Min="243" Max="243">P13 M39 · Bonus 39</Capability>
+  <Capability Min="244" Max="244">P13 M40 · Bonus 40</Capability>
+  <Capability Min="245" Max="245">P13 M41 · Bonus 41</Capability>
+  <Capability Min="246" Max="246">P13 M42 · Bonus 42</Capability>
+  <Capability Min="247" Max="247">P13 M43 · Bonus 43</Capability>
+  <Capability Min="248" Max="248">P13 M44 · Bonus 44</Capability>
+  <Capability Min="249" Max="249">P13 M45 · Bonus 45</Capability>
+  <Capability Min="250" Max="250">P13 M46 · Bonus 46</Capability>
+  <Capability Min="251" Max="251">P13 M47 · Bonus 47</Capability>
+  <Capability Min="252" Max="252">P13 M48 · Bonus 48</Capability>
+  <Capability Min="253" Max="253">P13 M49 · Bonus 49</Capability>
+  <Capability Min="254" Max="254">P13 M50 · Bonus 50</Capability>
+  <Capability Min="255" Max="255">P13 M51 · Bonus: Autoplay (Vision)</Capability>
+ </Channel>
+ <Channel Name="Brightness" Preset="IntensityMasterDimmer"/>
+ <Channel Name="Hue">
+  <Group Byte="0">Colour</Group>
+  <Capability Min="0" Max="10" Preset="ColorMacro" Res1="#ff0000">Red</Capability>
+  <Capability Min="11" Max="31" Preset="ColorMacro" Res1="#ffa500">Orange</Capability>
+  <Capability Min="32" Max="52" Preset="ColorMacro" Res1="#ffff00">Yellow</Capability>
+  <Capability Min="53" Max="74" Preset="ColorMacro" Res1="#7fff00">Chartreuse</Capability>
+  <Capability Min="75" Max="95" Preset="ColorMacro" Res1="#00ff00">Green</Capability>
+  <Capability Min="96" Max="116" Preset="ColorMacro" Res1="#00ff7f">Spring green</Capability>
+  <Capability Min="117" Max="138" Preset="ColorMacro" Res1="#00ffff">Cyan</Capability>
+  <Capability Min="139" Max="159" Preset="ColorMacro" Res1="#1e90ff">Dodger blue</Capability>
+  <Capability Min="160" Max="180" Preset="ColorMacro" Res1="#0000ff">Blue</Capability>
+  <Capability Min="181" Max="202" Preset="ColorMacro" Res1="#8a2be2">Blue violet</Capability>
+  <Capability Min="203" Max="223" Preset="ColorMacro" Res1="#ff00ff">Magenta</Capability>
+  <Capability Min="224" Max="244" Preset="ColorMacro" Res1="#ff0080">Rose</Capability>
+  <Capability Min="245" Max="255" Preset="ColorMacro" Res1="#ff0000">Red</Capability>
+ </Channel>
+ <Channel Name="Saturation">
+  <Group Byte="0">Colour</Group>
+  <Capability Min="0" Max="255">Saturation (white to full colour)</Capability>
+ </Channel>
+ <Channel Name="Speed">
+  <Group Byte="0">Speed</Group>
+  <Capability Min="0" Max="255">Pattern speed</Capability>
+ </Channel>
+ <Channel Name="Density">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="255">Pattern density</Capability>
+ </Channel>
+ <Channel Name="Retrigger">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="127">Idle</Capability>
+  <Capability Min="128" Max="255">Retrigger pattern</Capability>
+ </Channel>
+ <Channel Name="LFO 1">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="255">LFO 1</Capability>
+ </Channel>
+ <Channel Name="LFO 2">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="255">LFO 2</Capability>
+ </Channel>
+ <Channel Name="LFO 3">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="255">LFO 3</Capability>
+ </Channel>
+ <Channel Name="LFO 4">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="255">LFO 4</Capability>
+ </Channel>
+ <Mode Name="Standard">
+  <Channel Number="0">Pattern</Channel>
+  <Channel Number="1">Brightness</Channel>
+  <Channel Number="2">Hue</Channel>
+  <Channel Number="3">Saturation</Channel>
+  <Channel Number="4">Speed</Channel>
+  <Channel Number="5">Density</Channel>
+  <Channel Number="6">Retrigger</Channel>
+ </Mode>
+ <Mode Name="Extended">
+  <Channel Number="0">Pattern</Channel>
+  <Channel Number="1">Brightness</Channel>
+  <Channel Number="2">Hue</Channel>
+  <Channel Number="3">Saturation</Channel>
+  <Channel Number="4">Speed</Channel>
+  <Channel Number="5">Density</Channel>
+  <Channel Number="6">Retrigger</Channel>
+  <Channel Number="7">LFO 1</Channel>
+  <Channel Number="8">LFO 2</Channel>
+  <Channel Number="9">LFO 3</Channel>
+  <Channel Number="10">LFO 4</Channel>
+ </Mode>
+ <Physical>
+  <Bulb Type="LED" Lumens="0" ColourTemperature="0"/>
+  <Dimensions Weight="0.1" Width="60" Height="25" Depth="40"/>
+  <Lens Name="Other" DegreesMin="0" DegreesMax="0"/>
+  <Focus Type="Fixed" PanMax="0" TiltMax="0"/>
+  <Technical PowerConsumption="1" DmxConnector="Other"/>
+ </Physical>
+</FixtureDefinition>
