@@ -11,7 +11,35 @@ Also bridge DMX over sACN (E1.31) messages from light controller software such a
 
 ## Installation
 
-TODO
+1. Install [uv](https://docs.astral.sh/uv/getting-started/installation/), a
+   tool for installing Python apps. It works on macOS and Windows, and installs
+   Python for you if needed.
+
+2. Install `flowtoys`:
+
+   ```sh
+   uv tool install git+https://github.com/willemolding/flowtoys.py
+   ```
+
+3. Open a new terminal window and check it works:
+
+   ```sh
+   flowtoys --version
+   ```
+
+Installing from GitHub needs [git](https://git-scm.com/downloads). The first
+time `flowtoys` connects to a bridge, macOS asks to allow your terminal app to
+use Bluetooth: allow it.
+
+To update, run `uv tool upgrade flowtoys`. To remove it, run
+`uv tool uninstall flowtoys`.
+
+To use the Python library in your own project instead:
+
+```sh
+uv add git+https://github.com/willemolding/flowtoys.py
+pip install git+https://github.com/willemolding/flowtoys.py    # or with pip
+```
 
 ## The `flowtoys` command
 
@@ -26,8 +54,8 @@ This connects to the nearest bridge, or to the one whose address you give, and d
 
 The DMX bridge supports a number of modes. 
 
-- **Dancefloor Mode** allows props groups to be dynamically added (by pressing button 5 times) and will map all groups to a single DMX address. 
-- **Mapped Mode** allows mapping specific prop groups (given by 4 hex chars) to specific address (e.g. `1:1f37`). This is for more complex choreography where multiple groups might need to receive different commands
+- **Dancefloor Mode** allows props groups to be dynamically added (by pressing button 5 times) and will map all groups to a single DMX start address. 
+- **Mapped Mode** allows mapping specific prop groups (given by 4 hex chars) to specific start address (e.g. `1:1f37`). This is for more complex choreography where multiple groups might need to receive different commands
 
 ```sh
 flowtoys                                # interactive prompt only
